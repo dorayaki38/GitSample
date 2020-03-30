@@ -1,0 +1,3 @@
+SELECT `DATE`, `velocity_kmh`/*取得する条件*/ FROM
+`Drive_recorder`/*テーブル名*/ WHERE `sub`=6 AND
+DATE_FORMAT(`DATE`, '%Y%m%d')=20180319/*取得条件*/
